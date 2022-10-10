@@ -1,5 +1,5 @@
- <h2 align="center">DeceptiBOT</h2>
+ <h2 align="center">The Elements of Statistical Learning</h2>
   <p align="center">
-    Bot application for classifying news articles as REAL or FAKE using Machine Learning 
+    Foundational reading on statistical methods for machine learning. Lays the groundwork for everything else...
     <br />
     <br />
