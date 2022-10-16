@@ -14,5 +14,5 @@
  ## 2.3 Two Simple Approached: Least Squares and Nearest Neighbours
  ### 2.3.1 Linear Models and Least Squares
  Given a vector of inputs `X^T = (X1, X2, ..., Xp)`, the output `Y` via the model: 
-$\hat{Y} = \hat{\beta}_0 + \sum_{j=1}^{p} X_j \hat{\beta}_j$
+$\hat{Y}=\hat{\beta}_0+\sum_{j=1}^{p}X_j\hat{\beta}_j$
 where $\hat{\beta}_0$ is the intercept, or **bias** as it is known in ML
