@@ -18,8 +18,7 @@
 
 ![Equation](https://latex.codecogs.com/svg.image?%5Cbg%7Bwhite%7D%5Ccolor%7Bwhite%7D%5Chat%7BY%7D%20=%20%5Chat%7B%5Cbeta%7D_0%20&plus;%20%5Csum_%7Bj=1%7D%5E%7Bp%7D%20X_j%20%5Chat%7B%5Cbeta%7D_j)
 or equivalently ![Equation](https://latex.codecogs.com/svg.image?%5Cbg%7Bwhite%7D%5Ccolor%7Bwhite%7D%5Chat%7BY%7D%20=%20X%5ET%5Chat%7B%5Cbeta%7D)
+where $\hat{\beta}_0$ is the intercept, or **bias** as it is known in ML.
 
 
-
-where $\hat{\beta}_0$ is the intercept, or **bias** as it is known in ML
 
