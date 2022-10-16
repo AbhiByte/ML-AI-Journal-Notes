@@ -3,6 +3,8 @@
     Foundational reading on statistical methods for machine learning. Lays the groundwork for everything else...
     <br />
     <br />
+ #Disclaimer
+ Formulas are rendered as white text (because dark mode rocks!). If you are on light mode, you won't be able to see the formulas.
  
  # Chapter 2
  ## 2.1
