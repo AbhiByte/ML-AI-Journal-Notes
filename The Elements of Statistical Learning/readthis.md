@@ -30,6 +30,6 @@ To fit a linear model to a set of training data, the most popular method is **Le
 
 Example Least Squares classification:
  
- ![img 1](<ML-AI-Journal-Notes/Images/Img1.png>)
+ ![img 1](<github.com/AbhiByte/ML-AI-Journal-Notes/Images/Img1.png>)
 
 
