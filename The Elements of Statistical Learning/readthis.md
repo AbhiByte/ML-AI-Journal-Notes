@@ -28,5 +28,9 @@ To fit a linear model to a set of training data, the most popular method is **Le
 
 ![Equation](https://latex.codecogs.com/svg.image?%5Cbg%7Bwhite%7D%5Ccolor%7Bwhite%7DRSS(%7B%5Cbeta%7D)%20=%20%5Csum_%7Bi=1%7D%5E%7BN%7D(y_i-x_i%5ET%7B%5Cbeta%7D)%5E2)
 
+Example Least Squares classification:
+ <a href="https://github.com/AbhiByte/ML-AI-Journal-Notes">
+    <img src="Images/IMG_72CB35DE342F-1.jpeg" alt="Logo" width="120" height="120">
+  </a>
 
 
