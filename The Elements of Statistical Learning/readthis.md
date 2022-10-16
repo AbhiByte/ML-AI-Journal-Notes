@@ -30,6 +30,6 @@ To fit a linear model to a set of training data, the most popular method is **Le
 
 Example Least Squares classification:
  
- ![img 1](<The Elements of Statistical Learning/Images/Img1.png>)
+ ![img 1](<Images/Img1.png>)
 
 
