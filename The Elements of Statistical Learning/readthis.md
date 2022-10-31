@@ -31,5 +31,8 @@ To fit a linear model to a set of training data, the most popular method is **Le
 Example Least Squares classification:
  
  ![img 1](<Images/Img1.png>)
+ 
+###2.3.2 Nearest-Neighbor Methods
+ The object is classified using a vote of it's neighbors and is assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
 
 
