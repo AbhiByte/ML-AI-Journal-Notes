@@ -1,2 +1,2 @@
 # ML-AI-Journal-Notes
-Public repo of my ML/AI journal reading notes. For future reference.
+Public repo of my ML/AI journal reading notes and practice. For future reference.
