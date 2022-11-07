@@ -36,3 +36,5 @@ Example Least Squares classification:
  The object is classified using a vote of it's neighbors and is assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
 
 
+# This book is quite dense so I may or may not come back to it. Reading 'An Introduction to Statistical
+Learning' by the same authors instead
