@@ -1,5 +1,5 @@
 #We begin out journey with regression
-#Vid #5
+#Vid #6
 import pandas as pd
 import quandl, math, datetime
 import numpy as np
@@ -63,6 +63,7 @@ for i in forecast_set:
     next_date = datetime.datetime.fromtimestamp(next_unix)
     next_unix += one_day
     df.loc[next_date] = [np.nan for _ in range(len(df.columns) - 1)] + [i]
+print(df.tail())
 
 #Plotting
 df['Adj. Close'].plot()
