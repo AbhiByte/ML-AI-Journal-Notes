@@ -34,10 +34,14 @@ regression_line = [m*x+b for x in xs]
 predict_x = 15
 predict_y = m*predict_x+b
 r_squared = coefOfDet(ys, regression_line)
-print(r_squared)
 
-plt.scatter(xs, ys)
-plt.plot(xs, regression_line)
-plt.scatter(predict_x, predict_y, color="green")
-plt.show()
+
+
+if __name__ == '__main__':
+    print(r_squared)
+
+    plt.scatter(xs, ys)
+    plt.plot(xs, regression_line)
+    plt.scatter(predict_x, predict_y, color="green")
+    plt.show()
 
