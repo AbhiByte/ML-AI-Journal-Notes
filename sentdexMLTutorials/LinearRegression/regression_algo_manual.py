@@ -1,4 +1,4 @@
-#continue from vid10
+#continue from vid1
 from statistics import mean
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,12 +15,26 @@ def BestFitSlopeAndIntercept(xs, ys):
 
     b = np.mean(ys) - m * np.mean(xs)
     return m, b
+def squaredError(ys_orig, ys_line):
+    rS = sum((ys_orig - ys_line)**2)
+    return rS
+
+def coefOfDet(ys_orig, ys_line):
+    y_mean_line = [mean(ys_orig) for y in ys_orig]
+    squared_err_reg_line = squaredError(ys_orig, ys_line)
+    squared_error_y_mean = squaredError(ys_orig, y_mean_line)
+    return 1 - (squared_err_reg_line/squared_error_y_mean)
+
+
+
 
 m, b = BestFitSlopeAndIntercept(xs, ys)
 regression_line = [m*x+b for x in xs]
 
 predict_x = 15
 predict_y = m*predict_x+b
+r_squared = coefOfDet(ys, regression_line)
+print(r_squared)
 
 plt.scatter(xs, ys)
 plt.plot(xs, regression_line)
