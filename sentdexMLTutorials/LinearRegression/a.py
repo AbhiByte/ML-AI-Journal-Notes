@@ -25,8 +25,8 @@ df = df[['Adj. Close','HL_PCT','PCT_CHANGE','Adj. Volume']]
 forecast_col = 'Adj. Close'
 df.fillna(-99999, inplace=True)
 
-#Predicting out 1% of the length of the data
-forecast_out = int(math.ceil(0.01*len(df)))
+#Predicting out 10% of the length of the data
+forecast_out = int(math.ceil(0.1*len(df)))
 print(forecast_out)
 
 #Shifting the labels up 1% since we are predicting 10% into the future
@@ -35,8 +35,9 @@ df['label'] = df[forecast_col].shift(-forecast_out)
 
 X = np.array(df.drop(['label'], 1))
 X = preprocessing.scale(X)
+X_lately = X[-forecast_out:]
 X = X[:-forecast_out]
-X_lately = X[-forecast_out:] #last 1% of the data
+ #last 1% of the data
 
 df.dropna(inplace=True)
 y = np.array(df['label'])
