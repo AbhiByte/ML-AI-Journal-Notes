@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 
 
-csv_path = '/Users/abhir/Desktop/ML-AI-Journal-Notes/HandsOnMLBook/Regression/datasets/housing/housing.csv'
+csv_path = 'HandsOnMLBook/Regression/datasets/housing/housing.csv'
 data = pd.read_csv(csv_path)
 print(data.head())
 
