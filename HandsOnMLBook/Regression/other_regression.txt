@@ -1,0 +1,8 @@
+There are some other regression models that may be useful.
+
+Regularized Linear Models:
+    Ridge regression
+    Lasso regression
+    Elastic net
+
+Logistic Regression -> Used for classification (binary)
