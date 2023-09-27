@@ -6,3 +6,4 @@ Regularized Linear Models:
     Elastic net
 
 Logistic Regression -> Used for classification (binary)
+Softmax Regression -> Used for classification (non-binary)
