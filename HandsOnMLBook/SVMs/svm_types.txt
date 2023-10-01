@@ -1,0 +1,4 @@
+soft margin classification
+non-linear svms
+kernels: 
+    - 
