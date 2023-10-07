@@ -1,4 +1,5 @@
 soft margin classification
 non-linear svms
 kernels: 
-    - 
+    - kernel trick to mimic higher order polynomials without additional compute
+a bunch of other stuff but probably not too usefull (see book for more info)
