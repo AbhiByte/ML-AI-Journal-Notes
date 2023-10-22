@@ -1,0 +1,2 @@
+can perform both classification and regression.
+Relatively simple to use.
