@@ -11,3 +11,6 @@ per_clf = Perceptron()
 per_clf.fit(X, y)
 
 y_pred = per_clf.predict([[2, 0.5]])
+
+# Perceptron has some input data with associated weights, a bias, and a non-linearity
+# such as a sigmoid or tanh
