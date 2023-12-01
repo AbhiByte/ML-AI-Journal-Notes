@@ -1,6 +1,3 @@
-from graphviz import Digraph
-
-
 def trace(root):
     nodes, edges = set(), set()
 
@@ -29,7 +26,7 @@ def draw_dot(root, format="svg", rankdir="LR"):
     for n in nodes:
         dot.node(
             name=str(id(n)),
-            label="{ data %.4f | grad %.4f }" % (n.data, n.grad),
+            label="{ %s | data %.4f | grad %.4f }" % (n._label, n.data, n.grad),
             shape="record",
         )
         if n._op:
