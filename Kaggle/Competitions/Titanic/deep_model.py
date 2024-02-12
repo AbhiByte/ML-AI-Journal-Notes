@@ -8,7 +8,7 @@ df = pd.read_csv(r'Kaggle/Competitions/Titanic/data/train.csv')
 
 class NeuralNet:
     def __init__(self):
-        super(NeuralNet, self).__init__()
+        super(nn, self).__init__()
         self.fc1 = nn.Linear(5, 10) # 5 features? 10 neurons
         self.fc2 = nn.Linear(10, 1) # 1 output neuron
 
