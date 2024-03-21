@@ -38,7 +38,7 @@ print(f"l1: {l1.item()}, l2: {l2.item()}")
 class MultiClassNN(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super(MultiClassNN, self).__init__()
-        self.linear1 = nn.Linear(input_size, hidden_size)
+        self.linear1 = nn.Linear(input_size, hidden_size)    
         self.relu = nn.ReLU()
         self.linear2 = nn.Linear(hidden_size, num_classes)
 
